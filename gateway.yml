@@ -13,6 +13,8 @@ eureka:
 
 
 spring:
+  main:
+    web-application-type: servlet
   application:
     name: gateway
   cloud:
